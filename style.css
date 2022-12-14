@@ -21,7 +21,6 @@ body {
 
 #area-postagens {
     width: 660px;
-    background: orange;
     float: left;
 }
 
@@ -31,9 +30,14 @@ body {
     background: white;
 }
 
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 #area-lateral {
     width: 240px;
-    background: orange;
     float: right;
 }
 
@@ -71,6 +75,13 @@ h2 {
     color: #f7b600;
 }
 
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+
 .branco {
     color: white;
 }
@@ -107,4 +118,10 @@ a:hover {
     padding-bottom: 10px;
     margin-bottom: 10px;
     display: block;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 10px;
+    /*border-bottom: 1px dotted #CCC;*/
 }
